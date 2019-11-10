@@ -1,0 +1,14 @@
+#!/bin/bash
+
+make experiment_a_1
+
+./experiment_a_1 100
+
+gnuplot gnu_plot.gplot
+
+make experiment_a_2
+
+./experiment_a_2 100
+
+gnuplot gnu_plot2.gplot
+

@@ -1,0 +1,206 @@
+set title "Experiment A-2: Active and inactive periods"
+set xlabel "Time(ms)"
+set nokey
+set noytics
+set term postscript eps 10
+set output "experiment_a_2.eps"
+set object 1 rect from 0.000000, 1 to 0.315234, 2 fs empty
+set object 2 rect from 0.315234, 1 to 0.315553, 2 fc rgb "black" fs solid
+set object 2 rect from 0.315553, 1 to 4.260787, 2 fs empty
+set object 3 rect from 4.260787, 1 to 4.270003, 2 fc rgb "black" fs solid
+set object 3 rect from 4.270003, 1 to 9.860808, 2 fs empty
+set object 4 rect from 9.860808, 1 to 9.878623, 2 fc rgb "black" fs solid
+set object 4 rect from 9.878623, 1 to 10.542373, 2 fs empty
+set object 5 rect from 10.542373, 1 to 10.546595, 2 fc rgb "black" fs solid
+set object 5 rect from 10.546595, 1 to 10.550270, 2 fs empty
+set object 6 rect from 10.550270, 1 to 10.559639, 2 fc rgb "black" fs solid
+set object 6 rect from 10.559639, 1 to 10.559724, 2 fs empty
+set object 7 rect from 10.559724, 1 to 10.559988, 2 fc rgb "black" fs solid
+set object 7 rect from 10.559988, 1 to 16.277180, 2 fs empty
+set object 8 rect from 16.277180, 1 to 16.307227, 2 fc rgb "black" fs solid
+set object 8 rect from 16.307227, 1 to 17.752837, 2 fs empty
+set object 9 rect from 17.752837, 1 to 17.753078, 2 fc rgb "black" fs solid
+set object 9 rect from 17.753078, 1 to 17.880403, 2 fs empty
+set object 10 rect from 17.880403, 1 to 17.880725, 2 fc rgb "black" fs solid
+set object 10 rect from 17.880725, 1 to 17.894854, 2 fs empty
+set object 11 rect from 17.894854, 1 to 17.895225, 2 fc rgb "black" fs solid
+set object 11 rect from 17.895225, 1 to 17.919467, 2 fs empty
+set object 12 rect from 17.919467, 1 to 17.919750, 2 fc rgb "black" fs solid
+set object 12 rect from 17.919750, 1 to 17.924496, 2 fs empty
+set object 13 rect from 17.924496, 1 to 17.924689, 2 fc rgb "black" fs solid
+set object 13 rect from 17.924689, 1 to 17.926452, 2 fs empty
+set object 14 rect from 17.926452, 1 to 17.926681, 2 fc rgb "black" fs solid
+set object 14 rect from 17.926681, 1 to 17.934408, 2 fs empty
+set object 15 rect from 17.934408, 1 to 17.934658, 2 fc rgb "black" fs solid
+set object 15 rect from 17.934658, 1 to 17.947201, 2 fs empty
+set object 16 rect from 17.947201, 1 to 17.947413, 2 fc rgb "black" fs solid
+set object 16 rect from 17.947413, 1 to 17.952847, 2 fs empty
+set object 17 rect from 17.952847, 1 to 17.953128, 2 fc rgb "black" fs solid
+set object 17 rect from 17.953128, 1 to 17.979093, 2 fs empty
+set object 18 rect from 17.979093, 1 to 17.979334, 2 fc rgb "black" fs solid
+set object 18 rect from 17.979334, 1 to 18.085950, 2 fs empty
+set object 19 rect from 18.085950, 1 to 18.086194, 2 fc rgb "black" fs solid
+set object 19 rect from 18.086194, 1 to 18.219789, 2 fs empty
+set object 20 rect from 18.219789, 1 to 18.222562, 2 fc rgb "black" fs solid
+set object 20 rect from 18.222562, 1 to 18.242133, 2 fs empty
+set object 21 rect from 18.242133, 1 to 18.242662, 2 fc rgb "black" fs solid
+set object 21 rect from 18.242662, 1 to 18.255454, 2 fs empty
+set object 22 rect from 18.255454, 1 to 18.255989, 2 fc rgb "black" fs solid
+set object 22 rect from 18.255989, 1 to 18.256140, 2 fs empty
+set object 23 rect from 18.256140, 1 to 18.256327, 2 fc rgb "black" fs solid
+set object 23 rect from 18.256327, 1 to 18.658393, 2 fs empty
+set object 24 rect from 18.658393, 1 to 18.658641, 2 fc rgb "black" fs solid
+set object 24 rect from 18.658641, 1 to 20.132617, 2 fs empty
+set object 25 rect from 20.132617, 1 to 20.141477, 2 fc rgb "black" fs solid
+set object 25 rect from 20.141477, 1 to 20.141514, 2 fs empty
+set object 26 rect from 20.141514, 1 to 20.141894, 2 fc rgb "black" fs solid
+set object 26 rect from 20.141894, 1 to 21.275454, 2 fs empty
+set object 27 rect from 21.275454, 1 to 21.275748, 2 fc rgb "black" fs solid
+set object 27 rect from 21.275748, 1 to 24.449914, 2 fs empty
+set object 28 rect from 24.449914, 1 to 24.459012, 2 fc rgb "black" fs solid
+set object 28 rect from 24.459012, 1 to 29.847152, 2 fs empty
+set object 29 rect from 29.847152, 1 to 29.851808, 2 fc rgb "black" fs solid
+set object 29 rect from 29.851808, 1 to 34.494662, 2 fs empty
+set object 30 rect from 34.494662, 1 to 34.507839, 2 fc rgb "black" fs solid
+set object 30 rect from 34.507839, 1 to 35.131266, 2 fs empty
+set object 31 rect from 35.131266, 1 to 35.141161, 2 fc rgb "black" fs solid
+set object 31 rect from 35.141161, 1 to 35.397800, 2 fs empty
+set object 32 rect from 35.397800, 1 to 35.403494, 2 fc rgb "black" fs solid
+set object 32 rect from 35.403494, 1 to 35.439382, 2 fs empty
+set object 33 rect from 35.439382, 1 to 35.447705, 2 fc rgb "black" fs solid
+set object 33 rect from 35.447705, 1 to 36.067906, 2 fs empty
+set object 34 rect from 36.067906, 1 to 36.069429, 2 fc rgb "black" fs solid
+set object 34 rect from 36.069429, 1 to 36.111298, 2 fs empty
+set object 35 rect from 36.111298, 1 to 36.111494, 2 fc rgb "black" fs solid
+set object 35 rect from 36.111494, 1 to 37.649777, 2 fs empty
+set object 36 rect from 37.649777, 1 to 37.665718, 2 fc rgb "black" fs solid
+set object 36 rect from 37.665718, 1 to 37.665759, 2 fs empty
+set object 37 rect from 37.665759, 1 to 37.666007, 2 fc rgb "black" fs solid
+set object 37 rect from 37.666007, 1 to 37.798628, 2 fs empty
+set object 38 rect from 37.798628, 1 to 37.798847, 2 fc rgb "black" fs solid
+set object 38 rect from 37.798847, 1 to 37.799612, 2 fs empty
+set object 39 rect from 37.799612, 1 to 37.801075, 2 fc rgb "black" fs solid
+set object 39 rect from 37.801075, 1 to 37.814389, 2 fs empty
+set object 40 rect from 37.814389, 1 to 37.820234, 2 fc rgb "black" fs solid
+set object 40 rect from 37.820234, 1 to 38.670389, 2 fs empty
+set object 41 rect from 38.670389, 1 to 38.683571, 2 fc rgb "black" fs solid
+set object 41 rect from 38.683571, 1 to 38.683601, 2 fs empty
+set object 42 rect from 38.683601, 1 to 38.683954, 2 fc rgb "black" fs solid
+set object 42 rect from 38.683954, 1 to 38.860983, 2 fs empty
+set object 43 rect from 38.860983, 1 to 38.874876, 2 fc rgb "black" fs solid
+set object 43 rect from 38.874876, 1 to 38.936025, 2 fs empty
+set object 44 rect from 38.936025, 1 to 38.936210, 2 fc rgb "black" fs solid
+set object 44 rect from 38.936210, 1 to 39.144024, 2 fs empty
+set object 45 rect from 39.144024, 1 to 39.152666, 2 fc rgb "black" fs solid
+set object 45 rect from 39.152666, 1 to 39.170136, 2 fs empty
+set object 46 rect from 39.170136, 1 to 39.175053, 2 fc rgb "black" fs solid
+set object 46 rect from 39.175053, 1 to 39.205938, 2 fs empty
+set object 47 rect from 39.205938, 1 to 39.216771, 2 fc rgb "black" fs solid
+set object 47 rect from 39.216771, 1 to 39.241952, 2 fs empty
+set object 48 rect from 39.241952, 1 to 39.247038, 2 fc rgb "black" fs solid
+set object 48 rect from 39.247038, 1 to 46.017818, 2 fs empty
+set object 49 rect from 46.017818, 1 to 46.018146, 2 fc rgb "black" fs solid
+set object 49 rect from 46.018146, 1 to 51.158260, 2 fs empty
+set object 50 rect from 51.158260, 1 to 51.163241, 2 fc rgb "black" fs solid
+set object 50 rect from 51.163241, 1 to 51.456820, 2 fs empty
+set object 51 rect from 51.456820, 1 to 51.463302, 2 fc rgb "black" fs solid
+set object 51 rect from 51.463302, 1 to 51.953322, 2 fs empty
+set object 52 rect from 51.953322, 1 to 51.963776, 2 fc rgb "black" fs solid
+set object 52 rect from 51.963776, 1 to 52.146029, 2 fs empty
+set object 53 rect from 52.146029, 1 to 52.146266, 2 fc rgb "black" fs solid
+set object 53 rect from 52.146266, 1 to 52.152019, 2 fs empty
+set object 54 rect from 52.152019, 1 to 52.160694, 2 fc rgb "black" fs solid
+set object 54 rect from 52.160694, 1 to 52.191038, 2 fs empty
+set object 55 rect from 52.191038, 1 to 52.206265, 2 fc rgb "black" fs solid
+set object 55 rect from 52.206265, 1 to 52.375332, 2 fs empty
+set object 56 rect from 52.375332, 1 to 52.375585, 2 fc rgb "black" fs solid
+set object 56 rect from 52.375585, 1 to 52.666997, 2 fs empty
+set object 57 rect from 52.666997, 1 to 52.676124, 2 fc rgb "black" fs solid
+set object 57 rect from 52.676124, 1 to 52.828239, 2 fs empty
+set object 58 rect from 52.828239, 1 to 52.828732, 2 fc rgb "black" fs solid
+set object 58 rect from 52.828732, 1 to 52.828760, 2 fs empty
+set object 59 rect from 52.828760, 1 to 52.829048, 2 fc rgb "black" fs solid
+set object 59 rect from 52.829048, 1 to 53.015251, 2 fs empty
+set object 60 rect from 53.015251, 1 to 53.015490, 2 fc rgb "black" fs solid
+set object 60 rect from 53.015490, 1 to 53.352941, 2 fs empty
+set object 61 rect from 53.352941, 1 to 53.362687, 2 fc rgb "black" fs solid
+set object 61 rect from 53.362687, 1 to 53.362716, 2 fs empty
+set object 62 rect from 53.362716, 1 to 53.363025, 2 fc rgb "black" fs solid
+set object 62 rect from 53.363025, 1 to 53.373566, 2 fs empty
+set object 63 rect from 53.373566, 1 to 53.382162, 2 fc rgb "black" fs solid
+set object 63 rect from 53.382162, 1 to 53.710361, 2 fs empty
+set object 64 rect from 53.710361, 1 to 53.725884, 2 fc rgb "black" fs solid
+set object 64 rect from 53.725884, 1 to 53.906128, 2 fs empty
+set object 65 rect from 53.906128, 1 to 53.934967, 2 fc rgb "black" fs solid
+set object 65 rect from 53.934967, 1 to 54.082063, 2 fs empty
+set object 66 rect from 54.082063, 1 to 54.086548, 2 fc rgb "black" fs solid
+set object 66 rect from 54.086548, 1 to 54.114011, 2 fs empty
+set object 67 rect from 54.114011, 1 to 54.131204, 2 fc rgb "black" fs solid
+set object 67 rect from 54.131204, 1 to 54.966709, 2 fs empty
+set object 68 rect from 54.966709, 1 to 54.966897, 2 fc rgb "black" fs solid
+set object 68 rect from 54.966897, 1 to 54.979975, 2 fs empty
+set object 69 rect from 54.979975, 1 to 54.980177, 2 fc rgb "black" fs solid
+set object 69 rect from 54.980177, 1 to 56.133771, 2 fs empty
+set object 70 rect from 56.133771, 1 to 56.133975, 2 fc rgb "black" fs solid
+set object 70 rect from 56.133975, 1 to 56.144305, 2 fs empty
+set object 71 rect from 56.144305, 1 to 56.150550, 2 fc rgb "black" fs solid
+set object 71 rect from 56.150550, 1 to 56.754989, 2 fs empty
+set object 72 rect from 56.754989, 1 to 56.755198, 2 fc rgb "black" fs solid
+set object 72 rect from 56.755198, 1 to 56.818082, 2 fs empty
+set object 73 rect from 56.818082, 1 to 56.818359, 2 fc rgb "black" fs solid
+set object 73 rect from 56.818359, 1 to 57.135315, 2 fs empty
+set object 74 rect from 57.135315, 1 to 57.135523, 2 fc rgb "black" fs solid
+set object 74 rect from 57.135523, 1 to 57.309427, 2 fs empty
+set object 75 rect from 57.309427, 1 to 57.340942, 2 fc rgb "black" fs solid
+set object 75 rect from 57.340942, 1 to 57.346113, 2 fs empty
+set object 76 rect from 57.346113, 1 to 57.376344, 2 fc rgb "black" fs solid
+set object 76 rect from 57.376344, 1 to 57.397179, 2 fs empty
+set object 77 rect from 57.397179, 1 to 57.405009, 2 fc rgb "black" fs solid
+set object 77 rect from 57.405009, 1 to 57.405438, 2 fs empty
+set object 78 rect from 57.405438, 1 to 57.405686, 2 fc rgb "black" fs solid
+set object 78 rect from 57.405686, 1 to 58.697551, 2 fs empty
+set object 79 rect from 58.697551, 1 to 58.707124, 2 fc rgb "black" fs solid
+set object 79 rect from 58.707124, 1 to 67.372015, 2 fs empty
+set object 80 rect from 67.372015, 1 to 67.372337, 2 fc rgb "black" fs solid
+set object 80 rect from 67.372337, 1 to 67.380780, 2 fs empty
+set object 81 rect from 67.380780, 1 to 67.390840, 2 fc rgb "black" fs solid
+set object 81 rect from 67.390840, 1 to 84.471280, 2 fs empty
+set object 82 rect from 84.471280, 1 to 84.481451, 2 fc rgb "black" fs solid
+set object 82 rect from 84.481451, 1 to 101.582848, 2 fs empty
+set object 83 rect from 101.582848, 1 to 101.583094, 2 fc rgb "black" fs solid
+set object 83 rect from 101.583094, 1 to 101.583147, 2 fs empty
+set object 84 rect from 101.583147, 1 to 101.583377, 2 fc rgb "black" fs solid
+set object 84 rect from 101.583377, 1 to 101.961272, 2 fs empty
+set object 85 rect from 101.961272, 1 to 101.971078, 2 fc rgb "black" fs solid
+set object 85 rect from 101.971078, 1 to 102.005607, 2 fs empty
+set object 86 rect from 102.005607, 1 to 102.005876, 2 fc rgb "black" fs solid
+set object 86 rect from 102.005876, 1 to 102.122549, 2 fs empty
+set object 87 rect from 102.122549, 1 to 102.122755, 2 fc rgb "black" fs solid
+set object 87 rect from 102.122755, 1 to 102.611109, 2 fs empty
+set object 88 rect from 102.611109, 1 to 102.621033, 2 fc rgb "black" fs solid
+set object 88 rect from 102.621033, 1 to 104.049469, 2 fs empty
+set object 89 rect from 104.049469, 1 to 104.049746, 2 fc rgb "black" fs solid
+set object 89 rect from 104.049746, 1 to 104.049774, 2 fs empty
+set object 90 rect from 104.049774, 1 to 104.049963, 2 fc rgb "black" fs solid
+set object 90 rect from 104.049963, 1 to 104.086229, 2 fs empty
+set object 91 rect from 104.086229, 1 to 104.094811, 2 fc rgb "black" fs solid
+set object 91 rect from 104.094811, 1 to 105.215726, 2 fs empty
+set object 92 rect from 105.215726, 1 to 105.224778, 2 fc rgb "black" fs solid
+set object 92 rect from 105.224778, 1 to 105.326542, 2 fs empty
+set object 93 rect from 105.326542, 1 to 105.335685, 2 fc rgb "black" fs solid
+set object 93 rect from 105.335685, 1 to 105.463156, 2 fs empty
+set object 94 rect from 105.463156, 1 to 105.483895, 2 fc rgb "black" fs solid
+set object 94 rect from 105.483895, 1 to 114.106324, 2 fs empty
+set object 95 rect from 114.106324, 1 to 114.109603, 2 fc rgb "black" fs solid
+set object 95 rect from 114.109603, 1 to 114.127830, 2 fs empty
+set object 96 rect from 114.127830, 1 to 114.135064, 2 fc rgb "black" fs solid
+set object 96 rect from 114.135064, 1 to 114.143697, 2 fs empty
+set object 97 rect from 114.143697, 1 to 114.148223, 2 fc rgb "black" fs solid
+set object 97 rect from 114.148223, 1 to 115.473518, 2 fs empty
+set object 98 rect from 115.473518, 1 to 115.473808, 2 fc rgb "black" fs solid
+set object 98 rect from 115.473808, 1 to 115.473831, 2 fs empty
+set object 99 rect from 115.473831, 1 to 115.474031, 2 fc rgb "black" fs solid
+set object 99 rect from 115.474031, 1 to 115.494069, 2 fs empty
+set object 100 rect from 115.494069, 1 to 115.506513, 2 fc rgb "black" fs solid
+set object 100 rect from 115.506513, 1 to 116.030388, 2 fs empty
+plot [0:99.116933] [0:3] 0

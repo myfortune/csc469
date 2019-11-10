@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/A1.dir/experiment_a_1.c.o CMakeFiles/A1.dir/experiment_a_2.c.o  -o A1 
